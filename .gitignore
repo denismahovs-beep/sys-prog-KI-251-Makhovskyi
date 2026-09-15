@@ -1,8 +1,10 @@
 # Ігнорування конфігураційних файлів IDE
-.idea
-.vs
-.vscode
+.idea/
+.vs/
+.vscode/
 .project
+.classpath
+.settings/
 
 # Ігнорування системних файлів
 .DS_Store
@@ -15,7 +17,8 @@ Thumbs.db
 *.bak
 *.swp
 
-# Ігнорування компільованих файлів (C++)
+# Ігнорування компільованих файлів (C++ / Assembly)
 *.o
 *.out
 *.exe
+*.obj
